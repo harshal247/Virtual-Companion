@@ -13,7 +13,7 @@ model = Ollama(model="llama2", temperature=0.3)
 embeddings = OllamaEmbeddings()
 
 # Load FAQs data from the PDF
-def load_faq_data(pdf_path="Virtual_Companion_FAQs.pdf"):
+def load_faq_data(pdf_path="data/Virtual_Companion_FAQs.pdf"):
     loader = PyPDFLoader(pdf_path)
     return loader.load_and_split()
 
