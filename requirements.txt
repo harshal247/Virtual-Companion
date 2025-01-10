@@ -1,0 +1,7 @@
+langchain
+langchain_openai
+langchain_community
+pypdf
+docarray
+streamlit
+pydantic==2.7.4
